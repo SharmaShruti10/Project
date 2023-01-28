@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<form method="post" action="/register">
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="contact">Contact:</label><br>
+  <input type="text" id="contact" name="contact"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="pancard">PAN Card:</label><br>
+  <input type="text" id="pancard" name="pancard"><br>
+  <label for="company">Company:</label><br>
+  <input type="text" id="company" name="company"><br>
+  <label for="experience">Experience (in years):</label><br>
+  <input type="number" id="experience" name="experience"><br>
+  <label for="skills">Technical Skills:</label><br>
+  <select id="skills" name="skills" multiple>
+    <option value="skill1">Skill 1</option>
+    <option value="skill2">Skill 2</option>
+    <option value="skill3">Skill 3</option>
+  </select><br>
+  <label for="status">Status:</label><br>
+  <select id="status" name="status">
+    <option value="1">Approve</option>
+    <option value="0" selected>Pending</option>
+    <option value="2">Inactive</option>
+  </select><br><br>
+  <input type="submit" value="Submit">
+</form> 
